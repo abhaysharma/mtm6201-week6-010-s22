@@ -60,3 +60,27 @@ section{
   width: 175px;
   height: 175px;
 }
+/* -----------------------------------
+            CSS Transform
+------------------------------------- */
+.transform .box{
+  transition: all 1s;
+}
+
+.transform .b1:hover{
+  /* x-axis, y-axis */
+  transform: translate(20px, 30px);
+}
+.transform .b2:hover{
+  /* x-axis, y-axis */
+  transform: scale(1.2, 1.5);
+}
+.transform .b3{
+  transform-origin: right bottom;
+}
+.transform .b3:hover{
+  transform: rotate(45deg);
+}
+.transform .b4:hover{
+  transform: skew(45deg, 15deg) scale(.5) rotate(90deg);
+}
